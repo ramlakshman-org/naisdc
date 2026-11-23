@@ -1,6 +1,7 @@
 'use client';
 import {useState,useEffect} from 'react';
 import {useRouter} from 'next/navigation';
+import Brand from '@/components/Brand';
 export default function Home(){
  const router=useRouter();const [name,setName]=useState('');const [mobile,setMobile]=useState('');
  const [accepted,setAccepted]=useState(false);const [busy,setBusy]=useState(false);
@@ -15,22 +16,26 @@ export default function Home(){
    localStorage.setItem('intern_attempt_token',data.token);router.push('/test');
   }catch(e){setError(e instanceof Error?e.message:'Could not start. Please retry.');}finally{setBusy(false);}
  }
- return <main className="registration"><section className="panel">
-  <h1>Intern Skill Assessment</h1><p>60 multiple-choice questions · 60 minutes</p>
-  <div className="notice"><h2>Instructions</h2><ul>
-   <li>Answer independently. Do not use Google, AI tools or outside help.</li>
-   <li>The timer starts when you select Start assessment. Your answers save automatically.</li>
-   <li>Clicking Next locks your selected answer. Previous lets you review locked answers without changing them. Skipped questions can still be answered.</li>
-   <li>Your saved answers are submitted when the 60 minutes end.</li>
-   <li>Questions 1–50 count toward your score. Questions 51–60 cover learning readiness and are unscored.</li>
-  </ul></div>
-  <form className="form" onSubmit={start}>
-   <label>Student name<input autoComplete="name" minLength={2} maxLength={100} required value={name} onChange={e=>setName(e.target.value)}/></label>
-   <label>Mobile number<input type="tel" inputMode="numeric" autoComplete="tel-national" pattern="[0-9]{10}" maxLength={10} placeholder="10-digit mobile number" required value={mobile} onChange={e=>setMobile(e.target.value.replace(/\D/g,'').slice(0,10))}/></label>
-   <label className="check"><input type="checkbox" required checked={accepted} onChange={e=>setAccepted(e.target.checked)}/>I agree to answer without Google, AI tools or outside help.</label>
-   {error&&<p className="error" role="alert">{error}</p>}
-   <button className="primary" disabled={busy||!accepted}>{busy?'Starting…':'Start assessment'}</button>
-   {existing&&<button className="secondary" type="button" disabled={busy} onClick={()=>router.push('/test')}>Continue existing assessment</button>}
-  </form>
- </section></main>;
+ return <><header className="site-header"><Brand/><span className="header-note">Internship assessment</span></header>
+ <main className="registration">
+  <section className="registration-intro"><h1>Start with what<br className="desktop-break"/> you know.</h1><p className="intro-copy">A simple assessment to understand your skills and your starting point.</p>
+   <div className="assessment-facts" aria-label="Assessment overview"><span><strong>60</strong> questions</span><span><strong>60</strong> minutes</span><span><strong>50</strong> marks</span></div>
+   <div className="instructions"><h2>Before you begin</h2><ul>
+    <li><strong>Keep it independent.</strong> No Google, AI tools or outside help.</li>
+    <li><strong>Take your time.</strong> Answers save automatically. Your saved answers are submitted after 60 minutes.</li>
+    <li><strong>Choose, then continue.</strong> Next locks your answer. Previous is for review. Skipped questions remain answerable.</li>
+   </ul><p className="scoring-note">The first 50 questions are scored. The last 10 are about your experience and learning readiness.</p></div>
+  </section>
+  <section className="registration-form panel"><h2>Your details</h2><p className="muted">Enter your name and mobile number to begin.</p>
+   <form className="form" onSubmit={start}>
+    <label>Student name<input autoComplete="name" placeholder="Your full name" minLength={2} maxLength={100} required value={name} onChange={e=>setName(e.target.value)}/></label>
+    <label>Mobile number<input type="tel" inputMode="numeric" autoComplete="tel-national" pattern="[0-9]{10}" maxLength={10} placeholder="10-digit mobile number" required value={mobile} onChange={e=>setMobile(e.target.value.replace(/\D/g,'').slice(0,10))}/></label>
+    <label className="check"><input type="checkbox" required checked={accepted} onChange={e=>setAccepted(e.target.checked)}/><span>I agree to answer independently, without Google, AI tools or outside help.</span></label>
+    {error&&<p className="error" role="alert">{error}</p>}
+    <button className="primary" disabled={busy||!accepted}>{busy?'Starting…':'Start assessment'}</button>
+    {existing&&<button className="secondary" type="button" disabled={busy} onClick={()=>router.push('/test')}>Continue existing assessment</button>}
+    <p className="form-footnote">Your 60-minute timer starts when you begin.</p>
+   </form>
+  </section>
+ </main><footer className="site-footer">Intern Skill Assessment<span>Answer honestly. Start confidently.</span></footer></>;
 }

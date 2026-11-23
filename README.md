@@ -44,6 +44,7 @@ See `DEPLOYMENT_READINESS.md` for the final verification scope and remaining pro
 1. Import this existing project into Vercel with the **Next.js** framework preset and the repository root as the root directory.
 2. Use Node.js **22.x**. Leave the output directory at its Next.js default. The build command is `npm run build` and the install command is `npm ci`.
 3. Set `DATABASE_URL`, `ADMIN_PASSWORD` and `SESSION_SECRET` in the intended Vercel environment. Reuse the existing PostgreSQL database. Do not add `NEXT_PUBLIC_` prefixes to these secrets.
+   The Vercel build applies `schema.sql` in a transaction before building Next.js. This creates missing assessment tables and adds `locked_answers` without deleting saved assessments. Production builds also check the admin password and session-secret lengths. Database credentials remain in Vercel; they do not need to be downloaded locally.
 4. Deploy, then check student registration and `/admin` with disposable test data before sharing the URL.
 
 The local `Intern_Skill_Assessment_Vercel_Source.zip` export contains the source and lockfile without dependencies, build output or real environment values. Generated ZIP exports are excluded from Git; import this repository directly into Vercel.
