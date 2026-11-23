@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "section": "A",
+    "text": "Which device is normally used to enter text into a desktop computer?",
+    "options": [
+      "Monitor",
+      "Keyboard",
+      "Speaker",
+      "Projector"
+    ]
+  },
+  {
+    "id": 2,
+    "section": "A",
+    "text": "What is the purpose of a folder on a computer?",
+    "options": [
+      "To improve internet speed",
+      "To increase screen size",
+      "To turn off notifications",
+      "To organize files"
+    ]
+  },
+  {
+    "id": 3,
+    "section": "A",
+    "text": "Which keyboard shortcut normally copies selected text on Windows?",
+    "options": [
+      "Ctrl+V",
+      "Ctrl+C",
+      "Ctrl+S",
+      "Ctrl+Z"
+    ]
+  },
+  {
+    "id": 4,
+    "section": "A",
+    "text": "You downloaded a file using Chrome. Where should you first look for it?",
+    "options": [
+      "Downloads",
+      "Recycle Bin",
+      "Task Manager",
+      "Control Panel"
+    ]
+  },
+  {
+    "id": 5,
+    "section": "A",
+    "text": "What does the file extension `.pdf` usually indicate?",
+    "options": [
+      "A database server",
+      "A portable document",
+      "An installed browser",
+      "A video call"
+    ]
+  },
+  {
+    "id": 6,
+    "section": "A",
+    "text": "What is the safest action when you receive an unexpected attachment from an unknown sender?",
+    "options": [
+      "Forward it to friends",
+      "Open it immediately",
+      "Verify the sender and attachment before opening",
+      "Disable antivirus software"
+    ]
+  },
+  {
+    "id": 7,
+    "section": "A",
+    "text": "What does saving a document do?",
+    "options": [
+      "Deletes older files automatically",
+      "Installs a program",
+      "Publishes it as a website",
+      "Stores its changes in a file"
+    ]
+  },
+  {
+    "id": 8,
+    "section": "A",
+    "text": "What is the usual purpose of a web browser?",
+    "options": [
+      "To replace the operating system",
+      "To manufacture computer parts",
+      "To physically connect cables",
+      "To view and interact with web content"
+    ]
+  },
+  {
+    "id": 9,
+    "section": "A",
+    "text": "Which of these is an example of cloud file storage?",
+    "options": [
+      "Calculator",
+      "Taskbar",
+      "Paintbrush tool",
+      "Google Drive"
+    ]
+  },
+  {
+    "id": 10,
+    "section": "A",
+    "text": "You need to send a website link to a classmate. Which action is most appropriate?",
+    "options": [
+      "Copy the page URL and share it",
+      "Share your computer password",
+      "Send the monitor serial number",
+      "Rename the browser"
+    ]
+  },
+  {
+    "id": 11,
+    "section": "B",
+    "text": "What is a website?",
+    "options": [
+      "A collection of related web pages and resources",
+      "A type of keyboard",
+      "A computer battery",
+      "A physical internet cable"
+    ]
+  },
+  {
+    "id": 12,
+    "section": "B",
+    "text": "Which of these is a browser rather than a search engine?",
+    "options": [
+      "Google Search",
+      "Bing Search",
+      "Mozilla Firefox",
+      "Yahoo Search"
+    ]
+  },
+  {
+    "id": 13,
+    "section": "B",
+    "text": "What does a domain name help people do?",
+    "options": [
+      "Write CSS automatically",
+      "Store passwords locally",
+      "Find a website using a readable address",
+      "Increase monitor brightness"
+    ]
+  },
+  {
+    "id": 14,
+    "section": "B",
+    "text": "In `https://example.com/services`, what is `/services`?",
+    "options": [
+      "A Wi-Fi password",
+      "The browser name",
+      "A computer model",
+      "A path within the website"
+    ]
+  },
+  {
+    "id": 15,
+    "section": "B",
+    "text": "What does HTTPS mainly provide when connecting to a website?",
+    "options": [
+      "Free hosting forever",
+      "Automatic search rankings",
+      "Encryption of data in transit",
+      "Guaranteed truthful content"
+    ]
+  },
+  {
+    "id": 16,
+    "section": "B",
+    "text": "What is the role of a web server?",
+    "options": [
+      "Charge a laptop battery",
+      "Control a computer's keyboard layout",
+      "Respond to requests for website resources or services",
+      "Print every webpage"
+    ]
+  },
+  {
+    "id": 17,
+    "section": "B",
+    "text": "Which statement describes a webpage?",
+    "options": [
+      "One document or view accessible on the web",
+      "A physical computer only",
+      "The entire global internet",
+      "A broadband subscription"
+    ]
+  },
+  {
+    "id": 18,
+    "section": "B",
+    "text": "What happens when you click a working navigation link on a website?",
+    "options": [
+      "The keyboard disconnects",
+      "The domain expires",
+      "The browser navigates to the linked destination",
+      "The database must be deleted"
+    ]
+  },
+  {
+    "id": 19,
+    "section": "B",
+    "text": "What is a website's homepage usually?",
+    "options": [
+      "Its private server password",
+      "Its main entry page",
+      "Its internet service provider",
+      "Its source-code license"
+    ]
+  },
+  {
+    "id": 20,
+    "section": "B",
+    "text": "What does website hosting provide?",
+    "options": [
+      "A guarantee of sales",
+      "A free business registration",
+      "Infrastructure to make the website available to visitors",
+      "A replacement for all testing"
+    ]
+  },
+  {
+    "id": 21,
+    "section": "C",
+    "text": "What is HTML mainly responsible for?",
+    "options": [
+      "Storing server backups",
+      "Buying domain names",
+      "Registering a company",
+      "Structuring webpage content"
+    ]
+  },
+  {
+    "id": 22,
+    "section": "C",
+    "text": "What is CSS mainly used for?",
+    "options": [
+      "Configuring DNS records",
+      "Saving enquiries in a database",
+      "Styling and arranging webpage elements",
+      "Encrypting hard drives"
+    ]
+  },
+  {
+    "id": 23,
+    "section": "C",
+    "text": "What can JavaScript do on a webpage?",
+    "options": [
+      "Guarantee mobile internet access",
+      "Add interactive behaviour",
+      "Manufacture a web server",
+      "Replace the need for all hosting"
+    ]
+  },
+  {
+    "id": 24,
+    "section": "C",
+    "text": "Which HTML element is commonly used for a main page heading?",
+    "options": [
+      "`<footer>`",
+      "`<input>`",
+      "`<h1>`",
+      "`<img>`"
+    ]
+  },
+  {
+    "id": 25,
+    "section": "C",
+    "text": "Which element is typically used to collect a short text answer in a form?",
+    "options": [
+      "`<title>`",
+      "`<section>`",
+      "`<nav>`",
+      "`<input>`"
+    ]
+  },
+  {
+    "id": 26,
+    "section": "C",
+    "text": "What does responsive web design mean?",
+    "options": [
+      "The website has no images",
+      "The website works only on laptops",
+      "Every visitor receives an automatic email",
+      "Layouts adapt to different screen sizes"
+    ]
+  },
+  {
+    "id": 27,
+    "section": "C",
+    "text": "A button is difficult to tap on a mobile phone. What is the most relevant improvement?",
+    "options": [
+      "Rename the hosting account",
+      "Increase its usable touch-target area",
+      "Change the database name",
+      "Remove HTTPS"
+    ]
+  },
+  {
+    "id": 28,
+    "section": "C",
+    "text": "Which practice generally improves text readability?",
+    "options": [
+      "Sufficient contrast between text and background",
+      "Using tiny text everywhere",
+      "Using many unrelated fonts",
+      "Placing text over busy images without contrast"
+    ]
+  },
+  {
+    "id": 29,
+    "section": "C",
+    "text": "What does a navigation menu help users do?",
+    "options": [
+      "Move between website sections or pages",
+      "Physically upgrade the processor",
+      "Delete browser history",
+      "Create internet access automatically"
+    ]
+  },
+  {
+    "id": 30,
+    "section": "C",
+    "text": "A form says a phone number is required, but accepts an empty field. What is missing?",
+    "options": [
+      "A larger logo",
+      "A new color palette",
+      "An additional homepage",
+      "Appropriate input validation"
+    ]
+  },
+  {
+    "id": 31,
+    "section": "D",
+    "text": "Which component commonly receives and processes a contact-form submission?",
+    "options": [
+      "Image gallery",
+      "Browser bookmark",
+      "Backend service",
+      "Heading font"
+    ]
+  },
+  {
+    "id": 32,
+    "section": "D",
+    "text": "What is an API commonly used for?",
+    "options": [
+      "Enabling software components to exchange requests and responses",
+      "Replacing all user interfaces",
+      "Choosing font sizes only",
+      "Turning a laptop into a printer"
+    ]
+  },
+  {
+    "id": 33,
+    "section": "D",
+    "text": "What is a database?",
+    "options": [
+      "A CSS color",
+      "A browser extension category",
+      "A type of computer display",
+      "A system for organizing and retrieving data"
+    ]
+  },
+  {
+    "id": 34,
+    "section": "D",
+    "text": "In a relational database table, what does a row usually represent?",
+    "options": [
+      "A website domain",
+      "One record",
+      "A monitor setting",
+      "A server room"
+    ]
+  },
+  {
+    "id": 35,
+    "section": "D",
+    "text": "Which field could be used as a unique identifier for each enquiry record?",
+    "options": [
+      "Website background colour",
+      "Heading font",
+      "Enquiry ID",
+      "Browser window size"
+    ]
+  },
+  {
+    "id": 36,
+    "section": "D",
+    "text": "A website shows “Enquiry received” but the database contains no new entry. What should be verified?",
+    "options": [
+      "Whether the heading is centered",
+      "Whether the footer uses blue",
+      "Whether the logo is circular",
+      "Whether a successful database write actually occurred"
+    ]
+  },
+  {
+    "id": 37,
+    "section": "D",
+    "text": "Why should a customer-enquiry dashboard require authorization?",
+    "options": [
+      "To prevent unauthorized access to private records",
+      "To automatically improve search ranking",
+      "To make the logo load faster",
+      "To remove the need for backups"
+    ]
+  },
+  {
+    "id": 38,
+    "section": "D",
+    "text": "What does deploying a website generally mean?",
+    "options": [
+      "Releasing it to an environment where it can be accessed",
+      "Renaming the project folder",
+      "Drawing the first wireframe",
+      "Changing the laptop wallpaper"
+    ]
+  },
+  {
+    "id": 39,
+    "section": "D",
+    "text": "What is a sensible reason to maintain database backups?",
+    "options": [
+      "To guarantee zero bugs",
+      "To help recover data after accidental loss or failure",
+      "To replace login security",
+      "To make every button animated"
+    ]
+  },
+  {
+    "id": 40,
+    "section": "D",
+    "text": "Which item should generally not be embedded in publicly accessible frontend code?",
+    "options": [
+      "Public business address",
+      "A private server API key",
+      "Page heading",
+      "Service description"
+    ]
+  },
+  {
+    "id": 41,
+    "section": "E",
+    "text": "Which prompt gives the clearest website requirements?",
+    "options": [
+      "“Do something modern”",
+      "“Make a good site”",
+      "“Build a mobile-friendly bakery site with Home, Products, About and Contact pages”",
+      "“Surprise me”"
+    ]
+  },
+  {
+    "id": 42,
+    "section": "E",
+    "text": "What should you do if an AI-generated website displays the wrong phone number?",
+    "options": [
+      "Change the computer timezone",
+      "Request the exact correction and verify it",
+      "Publish it unchanged",
+      "Delete all other pages"
+    ]
+  },
+  {
+    "id": 43,
+    "section": "E",
+    "text": "Before accepting AI-generated backend code, what is most important?",
+    "options": [
+      "Assume it works because it was generated",
+      "Test its functionality and security-relevant behaviour",
+      "Check only its color scheme",
+      "Count the number of emojis"
+    ]
+  },
+  {
+    "id": 44,
+    "section": "E",
+    "text": "An AI builder changes the layout but accidentally removes the contact form. What is the best next step?",
+    "options": [
+      "Delete the database",
+      "Ignore it and publish",
+      "Change the domain name",
+      "Identify the regression and restore/test the form"
+    ]
+  },
+  {
+    "id": 45,
+    "section": "E",
+    "text": "What is the best way to communicate a bug to an AI coding assistant?",
+    "options": [
+      "Ask for unrelated animations",
+      "Write only “bad website”",
+      "Describe expected behaviour, actual behaviour and reproduction steps",
+      "Give no details"
+    ]
+  },
+  {
+    "id": 46,
+    "section": "E",
+    "text": "An AI tool claims the website is live. What should you do?",
+    "options": [
+      "Open the public URL and test it independently",
+      "Delete the project",
+      "Assume it is live without checking",
+      "Copy only a screenshot"
+    ]
+  },
+  {
+    "id": 47,
+    "section": "E",
+    "text": "Which prompt is most likely to produce an appropriate database change?",
+    "options": [
+      "“Use a brighter background”",
+      "“Improve everything”",
+      "“Add an enquiries table with name, phone, service, message and created_at; verify inserts work”",
+      "“Make the system powerful”"
+    ]
+  },
+  {
+    "id": 48,
+    "section": "E",
+    "text": "A webpage looks correct on desktop but its menu overlaps text on mobile. What should you ask the AI to fix?",
+    "options": [
+      "Mobile navigation layout and responsive breakpoints",
+      "Domain registration address",
+      "Server invoice template",
+      "Database backup frequency"
+    ]
+  },
+  {
+    "id": 49,
+    "section": "E",
+    "text": "What is the best approach when modifying a working AI-generated website?",
+    "options": [
+      "Publish changes without review",
+      "Make small changes and test after each change",
+      "Change everything without testing",
+      "Remove all existing requirements"
+    ]
+  },
+  {
+    "id": 50,
+    "section": "E",
+    "text": "Which outcome shows a contact form is genuinely working end-to-end?",
+    "options": [
+      "The form looks attractive",
+      "The homepage has an animation",
+      "The submit button changes color",
+      "A test submission is saved and can be retrieved by an authorized user"
+    ]
+  },
+  {
+    "id": 51,
+    "section": "F",
+    "text": "How often have you used a desktop or laptop during the past month?",
+    "options": [
+      "Daily",
+      "Several times per week",
+      "Once or twice",
+      "Not at all"
+    ]
+  },
+  {
+    "id": 52,
+    "section": "F",
+    "text": "How confidently can you create folders, rename files and find downloaded documents?",
+    "options": [
+      "Independently",
+      "With occasional help",
+      "Only with step-by-step guidance",
+      "I have not tried"
+    ]
+  },
+  {
+    "id": 53,
+    "section": "F",
+    "text": "Have you ever made a website or webpage?",
+    "options": [
+      "Yes, published one",
+      "Yes, created a draft",
+      "Only watched someone else",
+      "Never"
+    ]
+  },
+  {
+    "id": 54,
+    "section": "F",
+    "text": "Which best describes your programming experience?",
+    "options": [
+      "Built projects using code",
+      "Completed some coding exercises",
+      "Know a few terms",
+      "No experience"
+    ]
+  },
+  {
+    "id": 55,
+    "section": "F",
+    "text": "How often have you used AI tools such as ChatGPT, Gemini, Lovable or Bolt?",
+    "options": [
+      "Daily",
+      "Occasionally",
+      "Tried once or twice",
+      "Never"
+    ]
+  },
+  {
+    "id": 56,
+    "section": "F",
+    "text": "What can you currently do with an AI tool?",
+    "options": [
+      "Build or modify a working project",
+      "Write useful detailed prompts",
+      "Ask basic questions",
+      "I have not used one"
+    ]
+  },
+  {
+    "id": 57,
+    "section": "F",
+    "text": "What is your main goal for this internship?",
+    "options": [
+      "Learn computer basics",
+      "Build websites with AI",
+      "Learn software development more deeply",
+      "Start freelancing or building for clients"
+    ]
+  },
+  {
+    "id": 58,
+    "section": "F",
+    "text": "What kind of computer can you use for practical training?",
+    "options": [
+      "My own laptop/desktop",
+      "A shared computer regularly",
+      "A computer only during class",
+      "Currently no computer access"
+    ]
+  },
+  {
+    "id": 59,
+    "section": "F",
+    "text": "How much practice time can you realistically spend outside the daily class?",
+    "options": [
+      "30+ minutes daily",
+      "15–30 minutes daily",
+      "A few times per week",
+      "No regular time available"
+    ]
+  },
+  {
+    "id": 60,
+    "section": "F",
+    "text": "When you face an unfamiliar computer problem, what do you normally do first?",
+    "options": [
+      "Try to understand and troubleshoot it",
+      "Search for guidance or ask AI",
+      "Ask another person to solve it",
+      "Stop until help is available"
+    ]
+  }
+]

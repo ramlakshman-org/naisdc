@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.local-assessment/
+.qa/
+.gstack/
+qa-evidence/
+*.zip
+*.log
+.env*
+!.env.example

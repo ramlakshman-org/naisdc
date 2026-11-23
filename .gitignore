@@ -1,0 +1,12 @@
+node_modules
+.next
+.env*
+!.env.example
+*.log
+.DS_Store
+*.tsbuildinfo
+.local-assessment/
+.qa/
+qa-evidence/
+.gstack/
+*.zip

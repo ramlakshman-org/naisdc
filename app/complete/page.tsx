@@ -1,0 +1,1 @@
+export default function Complete(){return <main className="center"><section className="panel finish"><h1>Thank you!</h1><p>Your assessment has been submitted.</p><a href="/">Return to home</a></section></main>;}
