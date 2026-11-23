@@ -57,9 +57,11 @@ Scoring locks the attempt and reads its persisted answers in one SQL statement, 
 
 The browser retains an opaque assessment token in local storage; the database stores only its hash. Keep the same browser to resume. Knowing a mobile number does not grant access to its answers. Admin access uses an eight-hour signed HttpOnly cookie, Secure on deployment. No OTP or student account is required.
 
-## Verification limits
+## Production verification
 
-A production build and isolated database tests can run without live credentials. Verifying the actual Neon connection and deployed Vercel environment requires the configured environment variables and a deployment. No production connection or deployment was made as part of this preparation.
+The production site at https://naisdc.vercel.app was verified on 23 November 2026 against the connected Neon PostgreSQL database. A labeled QA submission saved all 60 answers, preserved answer locks, scored 50/50 with five category scores of 10/10, appeared in authenticated admin results and answer review, and exported successfully to CSV. Duplicate completed submissions were rejected. Admin cookies were verified as Secure and HttpOnly over HTTPS.
+
+The database schema is initialized inside the Vercel build. Production database credentials do not need to be downloaded locally. `ADMIN_PASSWORD` and `SESSION_SECRET` are configured in the project's Production environment; manage their values in Vercel, never in source control.
 
 ## Local test preview without Neon credentials
 
